@@ -1,4 +1,4 @@
-const jsonserver=require("json-server");
+const jsonserver=require("json-serve");
 const server=jsonserver.create();
 const router=jsonserver.router("./data/user-preferences.json");
 const middlewares=jsonserver.defaults();
