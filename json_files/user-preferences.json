@@ -1,0 +1,44 @@
+{ 
+    "user_preferences": [
+    {
+      "number": "1",
+      "place": "Dubai",
+      "type": "beach",
+      "start_date": "1/1/2024",
+      "end_date": "5/1/2024",
+      "user_id": "1"
+    },
+    {
+     "number": "2",
+      "place": "Dubai",
+      "type": "beach",
+      "start_date": "1/1/2024",
+      "end_date": "6/1/2024",
+      "user_id": "2"
+    },
+    {
+       "number": "3",
+       "place": "london",
+       "type": "rest",
+      "start_date": "2/1/2024",
+      "end_date": "7/1/2024",
+      "user_id": "3"
+    },
+    {
+       "number": "4",
+      "place": "costa rica",
+      "type": "cruise",
+      "start_date": "2/1/2024",
+      "end_date": "6/1/2024",
+      "user_id": "4"
+    },
+    {
+        "number": "5",
+      "place": "rome",
+      "type": "rest",
+      "start_date": "1/1/2024",
+      "end_date": "8/1/2024",
+      "user_id": "5"
+    }
+]
+}
