@@ -4,15 +4,14 @@ const axios=require("axios");
 const mysql=require("mysql2/promise");
 const jsonServer=require("json-server");
 const server=jsonServer.create();
-const router=jsonServer.router("./data/user-preferences.json");
+const router=jsonServer.router("./json_files/user-preferences.json");
 const middlewares=jsonServer.defaults();
+const port=process.env.PORT || 3000;
 server.use(middlewares);
 server.use(router);
 server.listen(port);
-const { bodyParser } = require("json-server");
 const { db_controller } = require("../hw4-web/controllers/db_controller.js");
 const app=express();
-const port=process.env.PORT || 3000;
 app.use(express.json());
 async function connectToDatabase() {
     return await mysql.createConnection({
